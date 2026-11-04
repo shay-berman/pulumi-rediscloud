@@ -3,9 +3,9 @@ module github.com/RedisLabs/pulumi-rediscloud/provider
 go 1.26.10
 
 require (
-	// v2.19.3 is commit ca1e97245378dc8e4be6413cf1745ef6805dc66d.
-	// Go rejects the v2.19.3 tag because that module path has no /v2 suffix.
-	github.com/RedisLabs/terraform-provider-rediscloud v1.9.1-0.20261028130956-ca1e97245378
+	// v2.20.0 is commit 89239cdf9846fee2909be9b171c3a13a1dd172a0.
+	// Go rejects the v2.20.0 tag because that module path has no /v2 suffix.
+	github.com/RedisLabs/terraform-provider-rediscloud v1.9.1-0.20261104071649-89239cdf9846
 	github.com/pulumi/pulumi-terraform-bridge/v3 v3.142.0
 	github.com/pulumi/pulumi/pkg/v3 v3.273.0 // indirect
 	github.com/pulumi/pulumi/sdk/v3 v3.273.0
